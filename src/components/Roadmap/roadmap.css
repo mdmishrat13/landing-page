@@ -1,0 +1,21 @@
+.roadmap{
+    color: white;
+}
+.roadmap-title{
+    text-align: center;
+}
+.roadmap-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.roadmap-card{
+    border: 1px solid white;
+    padding: 1.5rem;
+}
+.roadmap-section{
+    margin: 100px 0;
+}
+.roadmap-section>img{
+    max-width: 100%;
+}

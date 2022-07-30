@@ -1,0 +1,35 @@
+.team{
+    color: white;
+}
+.team-title{
+    color: white;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.team-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.team-card{
+    border: 1px solid white;
+}
+.main-identity{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.avatar{
+    margin-top: -100px;
+}
+
+.card-content{
+    padding: 10px;
+}
+.team-section{
+    margin: 100px 0;
+}
+.team-section>img{
+max-width: 100%;
+}
