@@ -4,7 +4,7 @@ import "./roadmap.css";
 import section from "./../../images/section.png";
 import sectionStyle from "./../../images/teamTitle.png";
 import vector4 from "./../../images/vector4.png";
-import roadmapLine1 from './../../images/roadmapLine1.png'
+import roadmapLine1 from './../../images/final1.png'
 
 const Roadmaps = () => {
   const steps = [
@@ -51,6 +51,13 @@ const Roadmaps = () => {
           </div>
             
         </div>
+        <div className="team-title">
+        <img src={sectionStyle} alt="" />
+          <div className="texts">
+          <h1> THE AIKUJI</h1>
+          <h2>TEAM</h2>
+          </div>
+      </div>
         <div className="middle-roadmap">
         <div className="roadmap-card-container">
         <img className="background-vector" src={vector4} alt="" />
@@ -77,7 +84,6 @@ const Roadmaps = () => {
         </div>
             </div>
         
-
         <div className="last-roadmap">
         <div className="roadmap-card-container">
         <img className="background-vector" src={vector4} alt="" />
