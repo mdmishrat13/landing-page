@@ -1,7 +1,7 @@
 .roadmap{
     color: white;
-    background-image: url('./../../images/roadmapLine.png');
-    background-repeat: no-repeat;
+    position: relative;
+   
 }
 .roadmap-title{
     text-align: center;
@@ -9,15 +9,40 @@
 .roadmap-cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 3rem;
+}
+
+.roadmap-card-container{
+    position: relative;
+    height: 160vh;
 }
 .roadmap-card{
-    border: 1px solid white;
-    padding: 1.5rem;
+    position: absolute;
+    width: 80%;
+    margin-right: 20px;
+
 }
+.middle-roadmap{
+    margin-top: 500px;
+}
+.last-roadmap{
+    margin-top: -500px;
+}
+
+.background-vector{
+    position: absolute;
+    width: 385px;
+    height: 800px;
+}
+
 .roadmap-section{
     margin: 100px 0;
 }
 .roadmap-section>img{
     max-width: 100%;
+}
+.section-line{
+    position: absolute;
+    top: 270px;
+    left: 50px;
 }
