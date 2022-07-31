@@ -1,12 +1,14 @@
 .roadmap{
     color: white;
+    background-image: url('./../../images/roadmapLine.png');
+    background-repeat: no-repeat;
 }
 .roadmap-title{
     text-align: center;
 }
 .roadmap-cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
 }
 .roadmap-card{

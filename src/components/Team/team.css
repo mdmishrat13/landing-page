@@ -2,19 +2,63 @@
     color: white;
 }
 .team-title{
+    margin-top: 100px;
     color: white;
     margin-bottom: 150px;
     text-align: center;
+    
+    position: relative;
+}
+.section-image>img{
+    width: 400px;
+    height: 110px;
+    text-align: center;
+    
+}
+.texts{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
+.texts>h1{
+    color: #00FF8E;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0;
+    margin: 5px;
+}
+
+.texts>h2{
+    font-family: 'Comfortaa', cursive;
+    padding: 0;
+    margin: 0;
 }
 .team-cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
 }
-
 .team-card{
-    border: 1px solid white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    /* border: 1px solid #00FF8E; */
+    background-color: black;
+
 }
+.team-card2{
+    clip-path: polygon(100% 0, 100% 37%, 69% 41%, 57% 59%, 0% 60%, 0 0);
+    /* border: 1px solid #00FF8E; */
+    background-color: rgb(201, 47, 47);
+
+}
+.team-card-main{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 73%, 64% 74%, 51% 100%, 18% 100%, 0 72%);
+clip-path: polygon(0 0, 100% 0, 100% 73%, 64% 74%, 51% 100%, 18% 100%, 0 72%);
+background-color: #00522A;
+position: relative;
+}
+
+
+
 .main-identity{
     display: flex;
     align-items: center;
@@ -24,8 +68,19 @@
     margin-top: -100px;
 }
 
+
 .card-content{
     padding: 10px;
+}
+.main-identity>h2{
+    font-weight:700;
+    font-size: 21px;
+    font-family: 'Orbitron', sans-serif;;
+}
+.card-content>p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight:400;
 }
 .team-section{
     margin: 100px 0;

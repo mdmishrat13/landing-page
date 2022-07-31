@@ -6,9 +6,13 @@ const TeamCard = ({ person }) => {
   return (
     <div>
       <div className="team-card">
+        </div>
+      <div className="team-card2">
+        </div>
+        
         <div className="main-identity">
           <img className="avatar" src={avatar1} alt="" />
-          <h1>ruby</h1>
+          <h2>RUDY</h2>
         </div>
         <div className="card-content">
           <p>
@@ -20,7 +24,8 @@ const TeamCard = ({ person }) => {
           </p>
           <h2>Founder</h2>
         </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .nav{
-    max-width: 1080px;
+    max-width: 1310px;
     margin: auto;
 }
 .nav-items{
@@ -26,6 +26,7 @@
 }
 
 .nav-pages>ul>li{
+    font-family: 'Orbitron', sans-serif;
    margin: 1rem;
    padding: 5px 10px;
    /* clip-path: polygon(0 1%, 87% 0, 100% 38%, 100% 100%, 19% 100%, 0 65%); */
@@ -67,4 +68,24 @@
     font-weight: 200;
 }
 
+
+/* responsive for tablet */
+@media only screen and (max-width: 992px) {
+    .nav{
+        max-width: 950px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav{
+        max-width: 750px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .nav{
+        max-width: 550px;
+    }
+    .nav-items{
+        display: none;
+    }
+}
 

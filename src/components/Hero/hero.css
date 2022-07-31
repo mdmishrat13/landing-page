@@ -8,6 +8,7 @@
     align-items: center;
 }
 .hero-nav{
+    padding: 0 20px;
     margin-bottom: 50px;
 }
 .hero-image{
@@ -21,6 +22,10 @@
 }
 .hero-section{
     margin-top: 50px;
+    text-align: center;
+}
+.hero-section>img{
+    max-width: 100%;
 }
 
 .hero-time{
@@ -29,4 +34,32 @@
     color: white;
     background-color: black;
     border: 1px solid white;
+}
+.hero-time>h2{
+    font-size: 20px;
+    width: 500px;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+/* responsive for all devices */
+
+@media only screen and (max-width: 992px) {
+    .hero-image>img{
+        max-width: 790px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hero-image>img{
+        max-width: 600px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hero-image>img{
+        max-width: 300px;
+        height: 150px;
+    }
 }

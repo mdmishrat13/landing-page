@@ -18,7 +18,7 @@ const Hero = () => {
           <img src={section} alt="" />
         </div>
         <div className="hero-time">
-            <h1>PUBLIC MINT END IN </h1>
+            <h2>PUBLIC MINT END IN </h2>
         </div>
       </div>
     </div>
